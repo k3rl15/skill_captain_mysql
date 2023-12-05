@@ -1,0 +1,23 @@
+Introduction to MySQL 
+
+Concept:
+
+MySQL is a relational database management system (RDBMS) based on SQL (Structured Query Language) queries. A relational database is a structured collection of data organised
+into tables, where each table consists of rows and columns. Each row represents a record, and each column represents a field or attribute of that record.
+
+
+
+Key characteristics of an RDBMS include:
+Tables: Data is organized into tables, which consist of rows (records) and columns (fields).
+Structured Query Language (SQL): RDBMS systems use SQL to define, manage, and manipulate data. SQL provides a standardized way to interact with the database, including tasks
+like querying, inserting, updating, and deleting data.
+Data Integrity: RDBMS systems enforce data integrity through constraints like primary keys (unique identifiers for records), foreign keys (establishing relationships between
+tables), and data validation rules.
+ACID Properties: RDBMS systems adhere to ACID (Atomicity, Consistency, Isolation, Durability) properties, which ensure that database transactions are reliable, consistent, 
+and recoverable.
+Normalization: RDBMS systems encourage the practice of normalization, which involves organizing data in a way that reduces data redundancy and ensures efficient storage.
+Indexes: Indexes are used to optimize data retrieval. They speed up querying operations by providing fast access to specific rows in a table.
+Concurrency Control: RDBMS systems manage multiple users accessing the same data simultaneously, ensuring that transactions occur without conflicts and maintaining data 
+consistency.
+Transactions: RDBMS systems support transactions, which are sequences of one or more operations that are executed as a single unit. Transactions are crucial for maintaining 
+data integrity.
