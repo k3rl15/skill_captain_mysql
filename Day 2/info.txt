@@ -1,0 +1,8 @@
+SQL vs MySQL
+
+Concept:
+
+SQL (Structured Query Language) is a programming language used to communicate with relational databases.
+MySQL , on the other hand, is a specific implementation of a relational database management system that uses SQL as its primary language.
+SQL is a standard language used across various database management systems like MySQL, Oracle, Microsoft SQL Server, PostgreSQL, and many others - to create, modify, 
+and retrieve data from databases, creating and modifying database structures, and implementing security features.
