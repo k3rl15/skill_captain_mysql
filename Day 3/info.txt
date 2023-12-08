@@ -1,0 +1,24 @@
+CREATE Statement and Data Types
+
+Concept:
+
+The CREATE statement is used to create a new database, table, view, index, or stored procedure. It is an essential command for defining the structure of a database 
+and setting up the schema of a table.
+
+To create a new database, you can use the following SQL statement:
+CREATE DATABASE database_name;
+Here, database_name is the name of the new database that you want to create.
+
+To create a new table, you can use the following SQL statement:
+CREATE TABLE table_name (column1 datatype, column2 datatype, column3 datatype);
+Here, table_name is the name of the new table that you want to create. The columns in the table are defined by their name and data type.
+
+SQL data types can be broadly categorized into the following types:
+Numeric data types: Used for storing numeric values such as integers, decimals, and floating-point numbers. Examples include INT, FLOAT, DECIMAL.
+Character and string data types: Used for storing character strings such as names, addresses, and descriptions. Examples include CHAR, VARCHAR, and TEXT.
+Date and time data types: Used for storing date, time, and timestamp values. Examples include DATE, TIME, and TIMESTAMP.
+Boolean data types: Used for storing true/false values. Examples include BOOLEAN and BIT.
+Binary data types: Used for storing binary data such as images, audio, and video files. Examples include BLOB and VARBINARY.
+Miscellaneous data types: Used for storing other types of data such as XML, JSON, and arrays. Examples include XML, JSON, and ARRAY.
+
+It's important to choose the appropriate data type for each column to ensure that the data is stored efficiently, and it can be queried and manipulated correctly.
