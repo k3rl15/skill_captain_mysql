@@ -1,0 +1,10 @@
+SELECT and WHERE
+
+Concept:
+
+The SELECT statement is used to retrieve data from one or more tables. This statement can either select specific columns from the table specified by table_name or 
+all columns from a table if an asterisk (*) is used in place of the column names. It returns all rows from that table.
+
+The WHERE clause is used to filter the results returned by a SELECT statement based on a specified condition. The condition is an expression that evaluates to true, 
+false, or unknown. Rows that evaluate to true are returned by the SELECT statement, while rows that evaluate to false or unknown are filtered out. You can use comparison 
+operators such as =, <, >, <=, >=, and <> to construct the condition.
