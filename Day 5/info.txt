@@ -1,0 +1,8 @@
+Insert, Update and Delete Statements
+
+Concept:
+
+The Insert, Update, and Delete statements in MySQL are used to manipulate data stored in a database. You can also add a WHERE clause to specify which rows to manipulate.
+The Insert statement is used to add new data to a table. You can specify the table and the values to be inserted into the table.
+The Update statement is used to modify existing data in a table. You can specify the table, the column to be updated, and the new value.
+The Delete statement is used to remove data from a table.
