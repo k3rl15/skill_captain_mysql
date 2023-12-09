@@ -1,0 +1,12 @@
+Drop and Truncate
+
+Concept:
+
+The DROP statement is used to delete an entire table from the database. When you drop a table, all data and the table structure is permanently deleted. 
+This means that you will not be able to retrieve the data after the table has been dropped.
+
+The TRUNCATE statement is used to remove all data from a table while keeping the structure of the table intact. This means that you can still retrieve 
+data from the table if you have previously backed up the data, or if you insert new data into the table. The TRUNCATE statement is much faster than the DELETE
+statement for removing all data from a table.
+
+Both the DROP and TRUNCATE statements should be used with caution, as they can result in permanent data loss.
