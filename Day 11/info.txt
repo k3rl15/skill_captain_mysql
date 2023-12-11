@@ -1,0 +1,20 @@
+Cache in MySQL
+
+Concept:
+
+Cache in MySQL refers to the mechanism of storing frequently accessed data in memory for quick retrieval leading to improved query performance. MySQL maintains several types 
+of caches to improve database performance, such as the query cache, key cache, and buffer pool.
+Caching can significantly improve database performance by reducing the need for disk I/O and optimizing query execution. When a query requests data from a table, MySQL checks 
+the cache to see if it can find the requested data in memory. If the data is found in the cache, it is returned to the query rather than executing the query again, avoiding a 
+disk I/O operation. If the data is not found in the cache, MySQL reads it from disk and places it in the cache for future access.
+The Query cache is used to store the results of SELECT statements in memory for quick access, reducing the overhead of executing the same query multiple times. It works by 
+storing the exact text of the query as the key and the result set as the value in memory. It can improve the performance of read-heavy workloads with relatively static data
+where the same queries are executed repeatedly, but it may not be effective in write-heavy workloads or for queries with large result sets. Additionally, the Query Cache can 
+consume a significant amount of memory, and it may need to be tuned or disabled in certain scenarios.
+The Key Cache, also known as the Index Cache, is used to cache the index blocks for frequently accessed tables. It is most useful for tables with a large number of reads and 
+infrequent writes.
+The Buffer Cache, also known as the InnoDB Buffer Pool, is used to cache the data pages of frequently accessed tables in memory. It is useful for tables with a high rate of 
+reads and writes.
+
+Caches are dynamically managed by MySQL. Their sizes can be adjusted based on the available memory and workload. It is important to carefully manage the cache sizes and 
+expiration policies to ensure that cached data is up-to-date and does not consume excessive memory.
