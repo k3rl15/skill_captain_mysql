@@ -1,0 +1,13 @@
+CPU Utilization of MySQL Server
+
+Concept:
+
+The CPU utilization of a MySQL server can increase for several reasons, including:
+High traffic: When there is a sudden increase in traffic or a high number of concurrent connections to the MySQL server, it can lead to an increase in CPU utilization.
+Complex queries: If the MySQL server is executing complex queries or queries that require a large amount of processing power, it can result in an increase in CPU utilization.
+Poorly optimized queries: Poorly optimized queries can lead to excessive CPU usage, as the server may need to perform unnecessary calculations or access a large amount of data.
+Lack of indexing: When tables in the MySQL database are not properly indexed, it can lead to slow query execution times and increased CPU usage.
+Inefficient server configuration: If the MySQL server is not configured optimally for the workload it is handling, it can result in increased CPU utilization.
+
+In general, any situation that increases the workload on the MySQL server can lead to an increase in CPU utilization. It is important to regularly monitor the CPU utilization 
+of the server and identify any potential performance bottlenecks to ensure optimal performance.
