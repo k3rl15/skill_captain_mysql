@@ -1,0 +1,16 @@
+Joins - Cross, Inner, Outer
+
+Concept:
+
+MySQL has several types of joins that allow you to combine data from two or more tables. The most commonly used ones are:
+Cross Join: This type of join returns the Cartesian product of both tables. It combines each row from the first table with every row from the second table, resulting in a 
+large number of rows.
+Inner Join: This type of join returns only the matching rows from both tables based on the specified join condition. It excludes the non-matching rows from both tables.
+Full Outer Join: This type of join returns all rows from both tables and NULL values for the non-matching rows in each table.
+Left Outer Join: This type of join returns all rows from the left table and matching rows from the right table based on the specified join condition. If there are no matching 
+rows in the right table, it returns NULL values.
+Right Outer Join: This type of join returns all rows from the right table and matching rows from the left table based on the specified join condition. If there are no matching 
+rows in the left table, it returns NULL values.
+
+The join type you choose depends on the relationship between the tables and the type of data you want to retrieve.
+PS. Some databases do not support all forms of joins.
