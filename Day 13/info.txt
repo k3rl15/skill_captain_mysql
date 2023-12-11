@@ -1,0 +1,25 @@
+Process list and Explain Commands
+
+Concept:
+
+The processlist command in MySQL is used to display a list of active threads (or processes) that are currently running on the MySQL server. This command is helpful in 
+monitoring the server's activity and identifying any processes that may be causing performance issues.
+
+When the processlist command is executed, it returns a table of information that includes the following columns:
+Id: The unique identifier for the thread.
+User: The MySQL user associated with the thread.
+Host: The hostname or IP address of the client associated with the thread.
+db: The name of the database associated with the thread.
+Command: The type of command the thread is executing (e.g., Query, Sleep, Connect, etc.).
+Time: The amount of time in seconds that the thread has been executing its current command.
+State: The current state of the thread (e.g., Sending data, Copying to tmp table, Sorting result, etc.).
+Info: The actual SQL query that the thread is executing.
+
+By analyzing the information returned by the processlist command, a DBA or system administrator can identify processes that may be causing performance issues, such as 
+long-running queries or queries that are using excessive resources. They can then take appropriate measures to optimize or terminate these processes to improve the overall 
+performance of the MySQL server.
+
+The EXPLAIN command in MySQL is used to provide information about how MySQL executes a query. When you execute the EXPLAIN command, MySQL returns a table of information 
+that describes how the query will be executed, including the order in which tables are accessed, the indexes that are used, and how the data will be retrieved and joined. 
+This information can be useful for optimizing queries and identifying potential performance issues. The EXPLAIN command is often used in conjunction with other MySQL 
+commands, such as SELECT, to provide insight into how the database engine is working.
