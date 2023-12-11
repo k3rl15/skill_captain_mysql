@@ -1,0 +1,10 @@
+Indexing
+
+Concept:
+
+Indexing is a technique used to improve the performance of queries that search through large amounts of data. An index is a data structure that is created on a table to allow 
+for fast retrieval of specific data.
+The basic idea behind indexing is to create a sorted list of values that can be quickly searched to find the data that matches a given query. For example, if a table contains 
+a large number of records, an index can be created on a specific column to speed up searches that involve that column.
+When a query is executed on a table with an index, the database engine uses the index to find the data that matches the query criteria, rather than scanning the entire table.
+This can result in a significant improvement in query performance.
